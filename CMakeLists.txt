@@ -15,7 +15,9 @@ find_package(Qt6 COMPONENTS
 
 add_executable(Registro_Attivita_Grafica main.cpp
         Attivita.cpp
-        Attivita.h)
+        Attivita.h
+        Registro.cpp
+        Registro.h)
 target_link_libraries(Registro_Attivita_Grafica
         Qt::Core
         Qt::Gui
