@@ -316,6 +316,18 @@
 			"MU",
 			"EWIEGA46WW/moc_Attivita.cpp",
 			null
+		],
+		[
+			"/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/InterfacciaQt.h",
+			"MU",
+			"EWIEGA46WW/moc_InterfacciaQt.cpp",
+			null
+		],
+		[
+			"/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/Registro.h",
+			"MU",
+			"EWIEGA46WW/moc_Registro.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -377,6 +389,16 @@
 	[
 		[
 			"/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/Attivita.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/InterfacciaQt.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/Registro.cpp",
 			"MU",
 			null
 		],

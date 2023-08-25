@@ -81,6 +81,14 @@ build CMakeFiles/Registro_Attivita_Grafica.dir/Registro.cpp.o: CXX_COMPILER__Reg
   OBJECT_DIR = CMakeFiles/Registro_Attivita_Grafica.dir
   OBJECT_FILE_DIR = CMakeFiles/Registro_Attivita_Grafica.dir
 
+build CMakeFiles/Registro_Attivita_Grafica.dir/InterfacciaQt.cpp.o: CXX_COMPILER__Registro_Attivita_Grafica_unscanned_Debug /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/InterfacciaQt.cpp || cmake_object_order_depends_target_Registro_Attivita_Grafica
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Registro_Attivita_Grafica.dir/InterfacciaQt.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/Registro_Attivita_Grafica_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtWidgets.framework/Headers
+  OBJECT_DIR = CMakeFiles/Registro_Attivita_Grafica.dir
+  OBJECT_FILE_DIR = CMakeFiles/Registro_Attivita_Grafica.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Registro_Attivita_Grafica
@@ -89,7 +97,7 @@ build CMakeFiles/Registro_Attivita_Grafica.dir/Registro.cpp.o: CXX_COMPILER__Reg
 #############################################
 # Link the executable Registro_Attivita_Grafica
 
-build Registro_Attivita_Grafica: CXX_EXECUTABLE_LINKER__Registro_Attivita_Grafica_Debug CMakeFiles/Registro_Attivita_Grafica.dir/Registro_Attivita_Grafica_autogen/mocs_compilation.cpp.o CMakeFiles/Registro_Attivita_Grafica.dir/main.cpp.o CMakeFiles/Registro_Attivita_Grafica.dir/Attivita.cpp.o CMakeFiles/Registro_Attivita_Grafica.dir/Registro.cpp.o | /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || Registro_Attivita_Grafica_autogen Registro_Attivita_Grafica_autogen_timestamp_deps
+build Registro_Attivita_Grafica: CXX_EXECUTABLE_LINKER__Registro_Attivita_Grafica_Debug CMakeFiles/Registro_Attivita_Grafica.dir/Registro_Attivita_Grafica_autogen/mocs_compilation.cpp.o CMakeFiles/Registro_Attivita_Grafica.dir/main.cpp.o CMakeFiles/Registro_Attivita_Grafica.dir/Attivita.cpp.o CMakeFiles/Registro_Attivita_Grafica.dir/Registro.cpp.o CMakeFiles/Registro_Attivita_Grafica.dir/InterfacciaQt.cpp.o | /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore || Registro_Attivita_Grafica_autogen Registro_Attivita_Grafica_autogen_timestamp_deps
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets  /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui  /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -F/opt/homebrew/lib
@@ -148,7 +156,7 @@ build Registro_Attivita_Grafica_autogen/timestamp Registro_Attivita_Grafica_auto
 #############################################
 # Phony custom command for CMakeFiles/Registro_Attivita_Grafica_autogen_timestamp_deps
 
-build CMakeFiles/Registro_Attivita_Grafica_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Registro_Attivita_Grafica_autogen_timestamp_deps: phony /opt/homebrew/share/qt/libexec/moc /opt/homebrew/share/qt/libexec/uic
+build CMakeFiles/Registro_Attivita_Grafica_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Registro_Attivita_Grafica_autogen_timestamp_deps: phony /opt/homebrew/share/qt/libexec/uic /opt/homebrew/share/qt/libexec/moc
 
 
 #############################################

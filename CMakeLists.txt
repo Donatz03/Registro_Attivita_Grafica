@@ -17,7 +17,9 @@ add_executable(Registro_Attivita_Grafica main.cpp
         Attivita.cpp
         Attivita.h
         Registro.cpp
-        Registro.h)
+        Registro.h
+        InterfacciaQt.cpp
+        InterfacciaQt.h)
 target_link_libraries(Registro_Attivita_Grafica
         Qt::Core
         Qt::Gui
