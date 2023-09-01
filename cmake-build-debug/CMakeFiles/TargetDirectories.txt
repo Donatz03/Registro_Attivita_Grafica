@@ -6,5 +6,16 @@
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/Registro_Attivita_Grafica_autogen.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/core_autogen_timestamp_deps.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/core_autogen.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/CMakeFiles/runAllTests.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/CMakeFiles/edit_cache.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/CMakeFiles/runAllTests_autogen_timestamp_deps.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/CMakeFiles/runAllTests_autogen.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_autogen_timestamp_deps.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_autogen.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main_autogen.dir
