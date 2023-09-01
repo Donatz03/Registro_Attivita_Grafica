@@ -1,5 +1,10 @@
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/Registro_Attivita_Grafica.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/core.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/Registro_Attivita_Grafica_autogen_timestamp_deps.dir
 /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/Registro_Attivita_Grafica_autogen.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/core_autogen_timestamp_deps.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/CMakeFiles/core_autogen.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir

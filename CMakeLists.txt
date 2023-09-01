@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.26)
 project(Registro_Attivita_Grafica)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -20,9 +21,14 @@ add_executable(Registro_Attivita_Grafica main.cpp
         Registro.h
         InterfacciaQt.cpp
         InterfacciaQt.h)
+
+add_subdirectory(test)
+
+add_library(core ${SOURCE_FILES})
+
 target_link_libraries(Registro_Attivita_Grafica
         Qt::Core
         Qt::Gui
         Qt::Widgets
+        core
 )
-

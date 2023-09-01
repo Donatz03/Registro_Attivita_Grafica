@@ -5,6 +5,9 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   file(REMOVE_RECURSE
   "CMakeFiles/Registro_Attivita_Grafica_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Registro_Attivita_Grafica_autogen.dir/ParseCache.txt"
+  "CMakeFiles/core_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/core_autogen.dir/ParseCache.txt"
   "Registro_Attivita_Grafica_autogen"
+  "core_autogen"
   )
 endif()
