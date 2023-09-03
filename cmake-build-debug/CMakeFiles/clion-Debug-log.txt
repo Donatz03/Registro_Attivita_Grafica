@@ -9,6 +9,6 @@ CMake Deprecation Warning at test/lib/googletest/CMakeLists.txt:53 (cmake_minimu
 
 
 -- Could NOT find PythonInterp (missing: PYTHON_EXECUTABLE) 
--- Configuring done (0.3s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/mattiadonadoni/CLionProjects/Registro_Attivita_Grafica/cmake-build-debug
