@@ -35,3 +35,10 @@ TEST_F(RegistroTest, TestRimuoviAttivita) {
     registro.rimuoviAttivita(QDate(2023, 8, 29), QString("Calcio"), QTime(10, 0), QTime(11, 0));
     ASSERT_EQ(registro.getAttivitaPerGiorno(QDate(2023, 8, 29)).size(), 0);
 }
+
+TEST_F(RegistroTest, TestRicercaAttivitaNomeGiornaliera) {
+    Attivita attivita1(QString("Calcio"), QDateTime(QDate(2023, 8, 29), QTime(10, 0)), QDateTime(QDate(2023, 8, 29), QTime(11, 0)));
+    registro.aggiungiAttivita(attivita1);
+    ASSERT_TRUE(registro.ricercaAttivitaNomeGionaliera(QDate(2023, 8, 29), QString("Calcio")));
+    ASSERT_FALSE(registro.ricercaAttivitaNomeGionaliera(QDate(2023, 8, 29), QString("Pallavolo")));
+}

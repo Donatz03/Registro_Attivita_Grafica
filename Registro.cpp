@@ -20,12 +20,33 @@ std::vector<Attivita> Registro::getAttivitaPerGiorno(const QDate& data) const {
     return attivitaDelGiorno;
 }
 
-void Registro::rimuoviAttivita(const QDate& data, const QString& Descrizione, const QTime& inizio, const QTime& fine) {
+bool Registro::rimuoviAttivita(const QDate& data, const QString& descrizione, const QTime& inizio, const QTime& fine) {
     for (int i = 0; i < attivita.size(); i++) {
-        if (attivita[i].getTempoInizio().date() == data && attivita[i].getDescrizione() == Descrizione && attivita[i].getTempoInizio().time() == inizio && attivita[i].getTempoFine().time() == fine) {
+        if (attivita[i].getTempoInizio().date() == data && attivita[i].getDescrizione() == descrizione && attivita[i].getTempoInizio().time() == inizio && attivita[i].getTempoFine().time() == fine) {
             attivita.erase(attivita.begin() + i);
+            return true;
         }
     }
+    return false;
+}
+
+bool Registro::ricercaAttivitaNomeGionaliera(const QDate& data, const QString& descrizione) const {
+    int count = 0;
+    int tempoTotale = 0;
+    bool trovata = false;
+    QString dataString = data.toString("dd/MM/yyyy");
+    for (const Attivita& attivita : attivita) {
+        if (attivita.getTempoInizio().date() == data && attivita.getDescrizione() == descrizione) {
+            count++;
+            tempoTotale += attivita.getTempoInizio().secsTo(attivita.getTempoFine());
+            trovata = true;
+        }
+    }
+    if(trovata)
+        std::cout << "Il numero di attività: " << descrizione.toStdString() << " e' " << count << ". Il tempo totale passato a svolgere questa attivita' e': " << tempoTotale << std::endl;
+    else
+        std::cout << "Non ci sono attività con questa descrizione in questa data." << std::endl;
+    return trovata;
 }
 
 bool Registro::esisteAttivitaSovrapposta(const QDateTime& inizio, const QDateTime& fine) const {
