@@ -66,16 +66,16 @@ void InterfacciaQt::aggiungiAttivita() {
             return;
         }
 
-        Attivita nuovaAttivita(descrizione, inizio, fine);
-
-        try {
-            nuovaAttivita.controllo();
+        try{
+            Attivita nuovaAttivita(descrizione, inizio, fine);
             registro.aggiungiAttivita(nuovaAttivita);
             stampaAttivitaGiornaliera();
             dialog.accept();
         } catch (const std::runtime_error& e) {
             QMessageBox::critical(&dialog, "Errore", e.what());
+            return;
         }
+
     });
 
     dialog.exec();

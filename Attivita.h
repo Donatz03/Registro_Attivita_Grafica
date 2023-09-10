@@ -15,12 +15,12 @@ public:
     QString getDescrizione() const;
     QDateTime getTempoInizio() const;
     QDateTime getTempoFine() const;
-    void controllo() const;
 
 private:
     QString descrizione;
     QDateTime tempoInizio;
     QDateTime tempoFine;
+    void controllo() const;
 };
 
 #endif //REGISTRO_ATTIVITA_GRAFICA_ATTIVITA_H

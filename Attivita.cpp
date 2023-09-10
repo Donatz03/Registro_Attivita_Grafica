@@ -4,7 +4,9 @@
 
 #include "Attivita.h"
 
-Attivita::Attivita(const QString& descrizione, const QDateTime& inizio, const QDateTime& fine) : descrizione(descrizione), tempoInizio(inizio), tempoFine(fine) {}
+Attivita::Attivita(const QString& descrizione, const QDateTime& inizio, const QDateTime& fine) : descrizione(descrizione), tempoInizio(inizio), tempoFine(fine) {
+    controllo();
+}
 
 QString Attivita::getDescrizione() const {
     return descrizione;
