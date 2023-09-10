@@ -20,6 +20,14 @@ std::vector<Attivita> Registro::getAttivitaPerGiorno(const QDate& data) const {
     return attivitaDelGiorno;
 }
 
+void Registro::rimuoviAttivita(const QDate& data, const QString& Descrizione, const QTime& inizio, const QTime& fine) {
+    for (int i = 0; i < attivita.size(); i++) {
+        if (attivita[i].getTempoInizio().date() == data && attivita[i].getDescrizione() == Descrizione && attivita[i].getTempoInizio().time() == inizio && attivita[i].getTempoFine().time() == fine) {
+            attivita.erase(attivita.begin() + i);
+        }
+    }
+}
+
 bool Registro::esisteAttivitaSovrapposta(const QDateTime& inizio, const QDateTime& fine) const {
     for (const Attivita& attivita : attivita) {
         if (attivita.getTempoInizio() >= inizio && attivita.getTempoInizio() < fine) {

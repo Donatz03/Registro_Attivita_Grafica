@@ -12,6 +12,7 @@
 class Registro {
 public:
     void aggiungiAttivita(const Attivita& attivita);
+    void rimuoviAttivita(const QDate &data, const QString &Descrizione, const QTime &inizio, const QTime &fine);
     std::vector<Attivita> getAttivitaPerGiorno(const QDate& data) const;
     bool esisteAttivitaSovrapposta(const QDateTime& inizio, const QDateTime& fine) const;
 
