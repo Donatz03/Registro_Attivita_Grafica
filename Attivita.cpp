@@ -31,3 +31,22 @@ void Attivita::controllo() const {
         throw std::runtime_error("La descrizione non può essere vuota.");
     }
 }
+
+void Attivita::setDescrizione(const QString &descrizione) {
+    Attivita::descrizione = descrizione;
+}
+
+void Attivita::setTempoInizio(const QTime &tempoInizio) {
+    Attivita::tempoInizio.setTime(tempoInizio);
+}
+
+void Attivita::setTempoFine(const QTime &tempoFine) {
+    Attivita::tempoFine.setTime(tempoFine);
+}
+
+bool Attivita::confronto(const Attivita& attivita) const {
+    if (tempoInizio == attivita.getTempoInizio() && tempoFine == attivita.getTempoFine() && descrizione == attivita.getDescrizione()) {
+        return true;
+    }
+    return false;
+}

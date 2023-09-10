@@ -42,3 +42,13 @@ TEST_F(RegistroTest, TestRicercaAttivitaNomeGiornaliera) {
     ASSERT_TRUE(registro.ricercaAttivitaNomeGionaliera(QDate(2023, 8, 29), QString("Calcio")));
     ASSERT_FALSE(registro.ricercaAttivitaNomeGionaliera(QDate(2023, 8, 29), QString("Pallavolo")));
 }
+
+TEST_F(RegistroTest, TestModificareAttivita) {
+    Attivita attivita1(QString("Calcio"), QDateTime(QDate(2023, 8, 29), QTime(10, 0)), QDateTime(QDate(2023, 8, 29), QTime(11, 0)));
+    Attivita attivita2(QString("Hokey"), QDateTime(QDate(2023, 8, 29), QTime(16, 30)), QDateTime(QDate(2023, 8, 29), QTime(17, 35)));
+    registro.aggiungiAttivita(attivita1);
+    registro.aggiungiAttivita(attivita2);
+    registro.modificareAttivita(QDate(2023, 8, 29), QString("Calcio"), QTime(10, 0), QTime(11, 0), QString("Pallavolo"), QTime(10, 10), QTime(11, 0));
+    ASSERT_TRUE(registro.ricercaAttivitaNomeGionaliera(QDate(2023, 8, 29), QString("Pallavolo")));
+    ASSERT_FALSE(registro.ricercaAttivitaNomeGionaliera(QDate(2023, 8, 29), QString("Calcio")));
+}
